@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EX 2</title>
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #000;
+      }
+      #name-surname-color {
+        text-align: center;
+        color: #dbb81d;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="name-surname-color">Simone Marzolla Ocra 21</h1>
+    <script type="text/javascript">
+      var name = prompt("Il tuo nome?:");
+      var surname = prompt("Il tuo cognome?:");
+      var color = prompt("Il tuo colore preferito?:");
+      document.getElementById("name-surname-color").innerHTML = "Ciao " + name + " " + surname + " " + color + " 19";
+      console.log(name + surname + color + "19");
+    </script>
+  </body>
+</html>
